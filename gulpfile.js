@@ -33,6 +33,11 @@ gulp.task('css', function () {
         .pipe(gulp.dest('dist/css'));
 });
 
+gulp.task('images', function () {
+    return gulp.src('app/img/**/*')
+        .pipe(gulp.dest('dist/img'));
+});
+
 gulp.task('js', function () {
 
     gulp.src(['app/scripts/**/*.js'])
@@ -110,6 +115,7 @@ gulp.task('build', ['clean'], function (cb) {
         'copy',
         'js',
         'css',
+        'images',
         'copy:html',
         'html:inject',
         'minify-html',
