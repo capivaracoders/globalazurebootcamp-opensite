@@ -1,0 +1,66 @@
+{
+  "name": "globalazurebootcamp-opensite",
+  "version": "1.0.0",
+  "description": "Community Open Template for Global Azure Bootcamp 2017 Site",
+  "main": "gulpfile.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/capivaracodes/globalazurebootcamp-opensite.git"
+  },
+  "author": "Capivara Codes (brunosbrunoro, vyper, williamsrz)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/capivaracodes/globalazurebootcamp-opensite/issues"
+  },
+  "homepage": "https://github.com/capivaracodes/globalazurebootcamp-opensite#readme",
+  "devDependencies": {
+    "bower": "^1.7.9",
+    "browser-sync": "^2.17.3",
+    "del": "^2.2.2",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-flatten": "^0.3.1",
+    "gulp-inject": "^4.1.0",
+    "gulp-load-plugins": "^1.3.0",
+    "gulp-main-bower-files": "^1.5.3",
+    "gulp-minify-css": "^1.2.4",
+    "gulp-minify-html": "^1.0.6",
+    "gulp-ngmin": "^0.3.0",
+    "gulp-replace": "^0.5.4",
+    "gulp-uglify": "^2.0.0",
+    "gulp-zip": "^3.2.0",
+    "merge-stream": "^1.0.0",
+    "path": "^0.12.7",
+    "run-sequence": "^1.2.2"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "dependencies": {
+    "bower": "^1.7.9",
+    "browser-sync": "^2.17.3",
+    "del": "^2.2.2",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-debug": "^2.1.2",
+    "gulp-flatten": "^0.3.1",
+    "gulp-inject": "^4.1.0",
+    "gulp-load-plugins": "^1.3.0",
+    "gulp-main-bower-files": "^1.5.3",
+    "gulp-minify-css": "^1.2.4",
+    "gulp-minify-html": "^1.0.6",
+    "gulp-ngmin": "^0.3.0",
+    "gulp-replace": "^0.5.4",
+    "gulp-uglify": "^2.0.0",
+    "gulp-zip": "^3.2.0",
+    "merge-stream": "^1.0.0",
+    "path": "^0.12.7",
+    "run-sequence": "^1.2.2"
+  },
+  "scripts": {
+    "bower": "bower install",
+    "server-dev": "gulp serve:dev",
+    "server-local": "gulp serve:local",
+    "server": "gulp serve"
+  }
+}

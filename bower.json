@@ -1,0 +1,22 @@
+{
+  "name": "globalazurebootcamp-opensite",
+  "description": "Community Open Template for Global Azure Bootcamp 2017 Site",
+  "main": "index.js",
+  "authors": [
+    "Capivara Codes (brunosbrunoro",
+    "vyper",
+    "williamsrz)"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/capivaracodes/globalazurebootcamp-opensite",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "materialize": "^0.97.8"
+  }
+}
